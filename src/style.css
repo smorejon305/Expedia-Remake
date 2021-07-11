@@ -1,3 +1,52 @@
+:root {
+  --ff-primary: "Overpass", sans-serif;
+
+  --clr-neutral-100: #fff;
+  --clr-buttonBlue: #3562d7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.bannerImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.textBox {
+  border-radius: 30px;
+}
+
+.textSection {
+  text-align: center;
+}
+
 h1 {
-  color: red;
+  font-family: var(--ff-primary);
+  font-size: 38px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 125%;
+  margin-left: 0.5em;
+}
+
+.expediaButton {
+  align-items: center;
+  display: block;
+  background: var(--clr-buttonBlue);
+  border-radius: 37px;
+  color: var(--clr-neutral-100);
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 20em;
 }
