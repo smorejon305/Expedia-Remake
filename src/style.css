@@ -11,6 +11,11 @@
   font-size: 16px;
 }
 
+.page-container {
+  border: 1px black;
+  margin: 3em;
+}
+
 .bannerImage {
   align-items: center;
   display: block;
