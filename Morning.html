@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Expedia, Reimagined</title>
+    <title>Good Morning | Expedia</title>
 
     <!--fontFamilies-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,29 +35,36 @@
     <script src="src/app.js"></script>
   </head>
   <body>
-    <div class="page-container">
-      <div class="bannerImage">
+    <h1>Good Morning</h1>
+    <h2>What do you want to book today?</h2>
+
+    <section class="navButtons">
+      <button>Flights</button>
+      <button>Cars</button>
+      <button>Hotels</button>
+      <button>Cruises</button>
+    </section>
+
+    <section class="suggestions">
+      <h3>Trending Trip Ideas</h3>
+      <container class="infoCard">
         <img
-          src="src/media/Woman Wearing Blue Dress With Umbrella during Sunset.jpg"
-          alt=""
-          class="bannerImage"
+          src="src/media/Brown on Seashore Near Mountain.jpg"
+          alt="Thailand boat on the shore"
+          class="cardImage"
         />
-      </div>
-
-      <div class="textSection">
-        <h1>Explore <br />New Places</h1>
-
-        <p class="textBox">
-          Expedia will help you to find new hotels, book taxis, book cheap
-          flights and lots more.
-        </p>
-
-        <div class="button">
-          <button>
-            <a href="morning.html" class="expediaButton">Get Started →︁ </a>
-          </button>
+        <div class="cardDetails">
+          <span.cardDetails>
+            <p>7 days / 2 person</p>
+          </span.cardDetails>
+          <span class="tripRating">
+            <p>⭐️ 4.5</p>
+          </span>
         </div>
-      </div>
-    </div>
+        <h4 class="cardCaption">
+          How to get around Thailand on a budget in 2021
+        </h4>
+      </container>
+    </section>
   </body>
 </html>
